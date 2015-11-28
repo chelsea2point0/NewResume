@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+  	<title>Chelsea Schaefer - Portfolio</title>
+  	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="scripts/jQuery.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<header id="top">
+			<p><a href="resume.html">RESUME</a> | <a href="index.html">PORTFOLIO</a> | <a href="contact.html">HIRE ME</a></p>
+			<hr>
+		</header>
+		<section>
+			<div class="row">
+		        <div class="col-md-6">
+		        	<img src="" alt="">
+		        </div>
+		        <div class="col-md-6">
+		        </div>
+		    </div>
+		</section>
+		<section>
+		    	<div>
+		    		<a href="#top"><button type="button" class="btn btn-warning">Top</button></a>
+		   		</div>
+		</section>
+	</div>
+
+<footer>
+	<p>Thank you for checking out my portfolio. I look forward to speaking with you soon!</p>
+</footer>
+<script type="text/javascript">
+    $('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+    		|| location.hostname == this.hostname) {
+
+	        var target = $(this.hash);
+	        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	           if (target.length) {
+	             $('html,body').animate({
+	                 scrollTop: target.offset().top
+	            }, 1000);
+	            return false;
+    			}
+			}
+	});
+</script>		         
+</body>
+</html>
