@@ -1,5 +1,9 @@
 html, body {
   margin: 0;
+  background-image: url("../images/background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 div h5 {
@@ -11,14 +15,15 @@ div p {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 10px auto;
   position: relative;
   max-width: 740px;
+  background-color: white;
 }
 
 header {
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 header a {
@@ -61,6 +66,12 @@ table td {
   height: 400px;
   width: 100%;
   padding-bottom: 5%;
+}
+
+.projectImg {
+	width: 100%;
+	padding-right: 0;
+	padding-top: 20px;
 }
 
 a button {

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Invoice Manager Chelsea Schaefer</title>
+<link rel="stylesheet" type="text/css" href="css/invoice_style.css">
+<script src="scripts/invoice_script.js"></script>
+<noscript>
+	<meta http-equiv="refresh" content="0; url=invoice_noscript.html">
+</noscript>
+</head>
+<body>
+<div class="container">
+<header>
+<table>
+	<tr>
+		<td><img src="images/invoice_shirt-star.png"></td>
+		<td><p><span class="red">Chelsea's Chic Boutique</span><br>
+		555 Main St., Second Fl.<br>
+		Manchester, NH 03101</p></td>
+	</tr>
+</table>
+</header>
+<h1>Invoice Manager</h1>
+<form name="invoiceForm">
+	<table id="formTable">
+		<tr>
+			<td><label>Item Code: </label></td>
+			<td><input type="text" id="item_code" name="code"></td>
+		</tr>
+		<tr>
+			<td><label>Item Name: </label></td>
+			<td><input type="text" id="item_name" name="name"></td>
+		</tr>
+		<tr>
+			<td><label>Item Cost ($): </label></td>
+			<td><input type="number" id="item_cost" name="cost"></td>
+		</tr>
+		<tr>
+			<td><label>Quantity: </label></td>
+			<td><input type="number" id="item_quantity" name="quantity"></td>
+		</tr>
+	</table>
+	<input type="button" id="item_add" value="Add Item"><br>
+</form>
+<br>
+<a href="invoice_noscript.html" target="_blank">Product and Pricing Lookup</a>
+<h2>Current Invoice</h2>
+<hr>
+<table id="orderTable">
+	<tr>
+		<th width="100">Item Code</th>
+		<th width="250">Item Name</th>
+		<th width="100">Item Cost</th>
+		<th width="40">Qty</th>
+		<th width="100">Line Cost</th>
+	</tr>	
+</table>
+<hr>
+<table id="results">
+	<tr>
+		<td><label>Subtotal: </label></td>
+		<td><input type="text" id="subTotal"></td>
+	</tr>
+	<tr>
+		<td><label>Sales Tax: </label></td>
+		<td><input type="text" id="tax"></td>
+	</tr>
+	<tr>
+		<td><strong><label>Total: </label></strong></td>
+		<td><input type="text" id="total"></td>
+	</tr>
+</table>
+<br>
+<p id="thankYou" class="red" >Thank you for your business!</p>
+</div>
+</body>
+</html>
