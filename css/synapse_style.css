@@ -1,0 +1,66 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;	
+	color: black;
+}
+
+h2 {
+	text-align: left;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+	margin-left: 30px;
+	text-align: right;
+}
+
+.header li {
+	list-style: none;
+	display: inline-block;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+.nav {
+	margin-top: 27px;
+}
+
+.nav a {
+	font-size: 13px;
+	text-transform: uppercase;
+	padding-left: 30px;
+	color: blue;
+}
+
+.col-md-2 img {
+	float: left;
+	height: 50px;
+}
+
+.jumbotron {
+	background-image: url('../images/synapse_cover.JPG');
+	background-size: cover;
+	width: 100%;
+	color: #ffe100;
+	height: 600px;
+	padding-top: 200px;
+	text-align: left;
+}
+
+table, th, td {
+	padding: 10px 20px 10px 0;
+}
+
+.footer {
+	height: 60px;
+	background-color: black;
+	color: white;
+	padding-top: 22px;
+	text-align: right;
+}
