@@ -35,6 +35,29 @@ header a {
 
 header a:hover {
 	text-decoration: underline;
+	color: #4386fc
+}
+
+.currentPage {
+	text-decoration: underline;
+	color: #4386fc;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+#contactMe {
+	margin-left: 10%;
+}
+
+.chelsea {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #4386fc;
 }
 
 section {
@@ -72,6 +95,16 @@ table td {
 	width: 100%;
 	padding-right: 0;
 	padding-top: 20px;
+}
+
+#clear {
+	clear: both;
+	padding-top: 20px;
+	text-align: left;
+}
+
+#connectSocial {
+	padding-left: 20%;
 }
 
 a button {
