@@ -1,0 +1,185 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  color: #E60000;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.header {
+  background-color: #141452;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.jumbotron {
+  background-image: url("../images/rebpac_washington.jpg");
+  background-size: cover;
+  margin: auto;
+  max-width: 1050px;
+  height: 400px;
+  width: 100%;
+}
+
+.nav {
+  margin: 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 30px 10px 10px;
+  text-align: center;
+}
+
+.main {
+  color: white;
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+.main h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.supporting {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.supporting .col {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  color: #141452;
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.btn-learnMore {
+  background-color: white;
+  border: solid 1px #141452;
+  color: #333;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+
+.btn-learnMore:hover {
+  background-color: #141452;
+  color: white;
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.contactpricing p {
+  padding-left: 20px;
+}
+
+.discount img {
+  width: 50%;
+}
+
+.prod-types p {
+  padding-bottom: 30px;
+}
+
+.prod-types li {
+  color: blue;
+}
+
+.prod-types li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #141452;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer p {
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .supporting .col {
+    width: 50%;
+  }
+}
+
+@media (max-width: 690px) {
+  .nav li {
+    padding: 10px 0 10px 0;
+  }
+
+  .main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+  .supporting .col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 475px) {
+  .main h1 {
+    font-size: 40px;
+  }
+
+  .nav li a {
+    font-size: 12px;
+    padding: 5px 5px;
+  }
+}
+
