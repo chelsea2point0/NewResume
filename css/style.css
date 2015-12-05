@@ -1,6 +1,6 @@
 html, body {
   margin: 0;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background2.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -35,7 +35,7 @@ header a {
 
 header a:hover {
 	text-decoration: underline;
-	color: #4386fc
+	color: #4386fc;
 }
 
 .currentPage {
@@ -53,6 +53,7 @@ header a:hover {
 
 #contactMe {
 	margin-left: 10%;
+	padding-bottom: 60px;
 }
 
 .chelsea {
@@ -106,6 +107,7 @@ table td {
 #connectSocial {
 	padding-left: 20%;
 }
+
 
 a button {
 	width: 100%;

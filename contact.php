@@ -10,6 +10,35 @@
 	<style>
 		footer {position: absolute;	bottom: 0;}
 	</style>
+
+
+<?php
+# run from http://localhost:7777/PHP/contact.html
+
+	extract ($_REQUEST, EXTR_SKIP);
+
+	if (isset ($name) && isset($email) && isset($phone) 
+	&& isset($message)) {
+
+		/* Subject and Email Variables*/ 
+		$recipient = "chelsea2point0@gmail.com";
+		$msgSubject = "New Message from chelseaschaefer.com";
+		$headers = array('From: chelsea2point0@gmail.com',
+			'Reply To: chelsea2point0@gmail.com',
+			'X-Mailer: PHP/' . PHP_VERSION
+			);
+		$headers = implode("\r\n", $headers);
+		$msgBody = 
+			"You have received a new message from $name: \r\n
+			Phone: $phone \r\n 
+			Email: $email \r\n
+			Message: $message \r\n";
+		
+		$send = mail($recipient, $msgSubject, $msgBody, $headers, "-f chelsea2point0@gmail.com");		
+	};
+
+?>
+
 </head>
 
 <body>
@@ -30,7 +59,7 @@
 			<p class="message" id="clear"><em>I would love to hear from you! I am always interested in networking opportunities with other web developers and technology enthusiasts. I am also currently seeking a Web Development position and would be delighted to discuss my qualifications with you further if you are looking for a web developer to join your team.  Feel free to reach out to me via social media, e-mail, or by submitting the form below. Thank you!</em></p>
 		</section>
 		<section id="contactMe">
-			<form action="contact.php" method="POST" >
+			<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" >
 				<table >
 					<tr>
 						<td class="right"><label for="name">Name:</label></td>
@@ -58,6 +87,18 @@
 					</tr>
 				</table>
 			</form>
+
+		<?php
+		if (isset ($submit)) {
+
+			if ($send) {
+				echo '<br><p style="color: red;">Thank you for your message! I will be in touch shortly.</p>';
+				} else {
+				echo '<br><p style="color: red;">Oops, something went wrong. Message did not send.</p>';
+			}
+		}
+		?>	
+
 		</section>
 	</div>
 

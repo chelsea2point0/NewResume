@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  background-image: url("../images/background2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, sans-serif; 
+}
+
+h2, h3 {
+	font-family: Georgia, serif;
+}
+
+div p {
+	padding-top: 7px;
+}
+
+.container {
+  margin: 15% auto;
+  position: relative;
+  max-width: 740px;
+  background-color: white;
+  padding: 15px 30px;
+}
+
+header {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#greeting {
+	color: white;
+	border: 2px solid #4386fc;
+	background-color: #4386fc;
+	padding: 5px 10px;
+}
+
+header a {
+	padding: 20px;
+	font-family: Verdana, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+header a:hover {
+	text-decoration: underline;
+	color: #4386fc;
+}
+
+.name {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #4386fc;
+	font-size: 60px;
+	font-weight: lighter;
+}
