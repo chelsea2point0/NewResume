@@ -63,11 +63,12 @@ header a:hover {
 
 section {
 	padding: 10px;
+	width: 100%;
 }
 
 section img {
 	float: left;
-	padding-right: 50px;
+	padding-right: 10px;
 	padding-left: 20px;
 }
 
@@ -75,9 +76,8 @@ section div {
 	padding-bottom: 5px;
 }
 
-.socialMedia img {
+.socialMedia img, .socialMediaContact img {
 	padding-top: 20px;
-
 }
 
 table td {
@@ -105,9 +105,8 @@ table td {
 }
 
 #connectSocial {
-	padding-left: 20%;
+	padding-left: 30%;
 }
-
 
 a button {
 	width: 100%;
@@ -120,7 +119,39 @@ footer {
 	height: 100px;
 	width: 100%;
 	text-align: center;
-	padding-top: 40px;
+	padding: 40px 20px 20px 20px;
 }
 
+/* media queries for responsive design */
+
+@media screen and (max-width: 990px) {
+	.projectImg {
+		padding-right: 20px;
+	}
+	.projectDesc, a .projectDesc {
+		padding: 15px;
+		margin: 5px;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	#connectSocial {padding: 0px;}
+	.center {text-align: left;}
+	.center img {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	}
+
+@media screen and (max-width: 620px) {
+	#contactMe {margin-left: 0px;}
+	#message {width: 70%;}
+	.socialMedia img {display: none;}
+	footer {padding-top: 20px;}
+}
+
+@media screen and (max-width: 480px) {
+	section img {float: none;}
+	header a {padding: 5px;}
+}
 

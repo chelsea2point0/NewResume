@@ -8,18 +8,6 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<script src="scripts/jQuery.js"></script>
 	<script src='https://www.google.com/recaptcha/api.js'></script>
-	<style>
-		footer {position: absolute;	bottom: 0;};
-		@media screen and (max-width: 768px) {
-			footer {position: relative;}
-		}
-	</style>
-
-
-<?php
-
-?>
-
 </head>
 
 <body>
@@ -31,8 +19,8 @@
 		<section class="center">
 			<h2  class="chelsea">Chelsea Schaefer</h2>
 			<h3>Let's Connect.</h3>
-			<div class="socialMedia" class="center" id="connectSocial">
-	          	<a href="https://github.com/chelsea2point0" target="_blank"><img src="images/github.png" alt="githubLogo"></a>
+			<div class="socialMediaContact" class="center" id="connectSocial">
+          		<a href="https://github.com/chelsea2point0" target="_blank"><img src="images/github.png" alt="githubLogo"></a>
 	          	<a href="https://www.linkedin.com/profile/view?id=46847969" target="_blank"><img src="images/linkedin.png" alt="linkedinLogo"></a>
 	          	<a href="mailto:chelseajoyschaefer@gmail.com" target="_blank"><img src="images/email.png" alt="emailLogo"></a>
 	          	<a href="https://twitter.com/chels_schaefer" target="_blank"><img src="images/twitter.png" alt="twitterLogo"></a>
@@ -56,7 +44,7 @@
 					</tr>
 					<tr>
 						<td class="right"><label for="message">Message to Chelsea:</label></td>
-						<td><textarea name="message" id="message" cols="50" rows="5" required></textarea></td>
+						<td><textarea name="message" id="message" cols="40" rows="5" required></textarea></td>
 					</tr>
 					<tr>
 						<td></td>

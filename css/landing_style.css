@@ -53,3 +53,25 @@ header a:hover {
 	font-size: 60px;
 	font-weight: lighter;
 }
+
+@media screen and (max-width: 820px) {
+	h1, h2, h3, p {font-size: 0.9em;}
+	.container {margin: 0% auto; max-width: 450px;}
+	.name {font-size: 40px;}
+}
+
+@media screen and (max-width: 480px) {
+	h1, h2, h3, p {font-size: 0.8em;}
+	header a {padding: 5px;}
+	html, body {background-image: url("../images/background2_sm.jpg");}
+	.container {
+		margin: 0% auto; 
+		max-width: 320px;
+	}
+	.name {font-size: 20px;}
+}
+
+@media screen and (max-width: 350px) {
+	header a {padding: 0px;}
+	.container {opacity: 0.8;}
+}
