@@ -28,7 +28,7 @@ li {
 }
 
 .jumbotron {
-  background-image: url("../images/rebpac_washington.jpg");
+  background-image: url("images/rebpac_washington.jpg");
   background-size: cover;
   margin: auto;
   max-width: 1050px;
@@ -159,6 +159,9 @@ li {
 }
 
 @media (max-width: 690px) {
+  .jumbotron {
+    background-image: url("images/rebpac_washington_sm.jpg");
+  }
   .nav li {
     padding: 10px 0 10px 0;
   }
