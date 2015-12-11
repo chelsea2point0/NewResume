@@ -69,7 +69,6 @@ section {
 section img {
 	float: left;
 	padding-right: 10px;
-	padding-left: 20px;
 }
 
 section div {
@@ -147,6 +146,12 @@ footer {
 	#contactMe {margin-left: 0px;}
 	#message {width: 70%;}
 	.socialMedia img {display: none;}
+	.center {
+		text-align: center;
+		display: block;
+		margin: auto;
+		padding-bottom: 10px;
+	}
 	footer {padding-top: 20px;}
 }
 

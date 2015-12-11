@@ -6,7 +6,7 @@ var bio = {
 		"email" : "chelseajoyschaefer@gmail.com",
 		"github" : "chelsea2point0",
 		"twitter" : "@chels_schaefer",
-		"location" : "795 Elm St, Manchester, NH"
+		"location" : "795 Elm Street, Manchester, NH 03101"
 	},
 	"skills" : [
 		"HTML/CSS", " JavaScript", " Training", "Customer Service", "Attention to Detail"
@@ -22,7 +22,7 @@ var education = {
 		"major": "Internet Application Development",
 		"dates": "August 2015 - December 2015",
 		"url": "http://www.nashuacc.edu",
-		"location": "505 Amherst St, Nashua, NH"
+		"location": "Nashua Community College, Nashua, New Hampshire"
 	},
 	{
 		"name": "Assumption College",
@@ -31,7 +31,7 @@ var education = {
 		"major": "School Counseling",
 		"dates": "September 2010 - May 2012",
 		"url": "http://www.assumption.edu",
-		"location": "500 Salisbury St, Worcester, MA"
+		"location": "Assumption College, Worcester, MA"
 	},
 	{
 		"name": "University of New Hampshire",
@@ -40,7 +40,7 @@ var education = {
 		"major": "Psychology",
 		"dates": "September 2006 - May 2010",
 		"url": "http://www.unh.edu",
-		"location": "105 Main St, Durham, NH"
+		"location": "University of New Hampshire, 105 Main Street, Durham, NH"
 	}
 	]
 };
@@ -51,14 +51,14 @@ var work = {
 		"employer": "REB/PAC Business Products",
 		"title": "Web Developer",
 		"dates": "July 2015 - August 2015",
-		"location": "Pine Hill Rd, Weare, NH",
+		"location": "Pine Hill Road, Weare, NH",
 		"description": "Contract position to update client's website. Maintained original webpage content but created a more visually appealing, user-friendly version using HTML, CSS, bootstrap and jQuery."
 	},
 	{
 		"employer": "Southern New Hampshire University",
 		"title": "Lead Training Manager",
 		"dates": "September 2014 - June 2015",
-		"location": "South Commercial St, Manchester, NH",
+		"location": "33 South Commercial St, Manchester, NH",
 		"description": "Responsible for managing a team of 5 Training Managers and 1 Quality Assurance Manager for the Academic Advising staff. Designed, developed, and updated training manuals and job aids for both new and current Academic Advisors."
 	},
 	{
