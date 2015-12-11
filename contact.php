@@ -19,7 +19,7 @@
 		<section class="center">
 			<h2  class="chelsea">Chelsea Schaefer</h2>
 			<h3>Let's Connect.</h3>
-			<div class="socialMediaContact" class="center" id="connectSocial">
+			<div class="socialMedia" id="connectSocial">
           		<a href="https://github.com/chelsea2point0" target="_blank"><img src="images/github.png" alt="githubLogo"></a>
 	          	<a href="https://www.linkedin.com/profile/view?id=46847969" target="_blank"><img src="images/linkedin.png" alt="linkedinLogo"></a>
 	          	<a href="mailto:chelseajoyschaefer@gmail.com" target="_blank"><img src="images/email.png" alt="emailLogo"></a>
