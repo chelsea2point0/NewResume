@@ -74,6 +74,13 @@ var work = {
 		"dates": "June 2012 - July 2013",
 		"location": "South Commercial St, Manchester, NH",
 		"description": "Provided Academic Advising services to new students within Liberal Arts undergraduate degree programs. Recommended and registered students for courses based upon degree requirements. Assisted with study skills and connecting students with academic resources for success."
+	},	
+	{
+		"employer": "Berkley Accident & Health",
+		"title": "Underwriting Associate",
+		"dates": "September 2010 - May 2012",
+		"location": "400 Donald Lynch Blvd, Marlborough, MA",
+		"description": "Assisted underwriters in generating rate quotes for prospective clients. Manipulated client census data using Microsoft Excel. Monitored and prioritized incoming claim reimbursement requests for Claims Representatives."
 	}
 	]
 };
